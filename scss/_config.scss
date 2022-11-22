@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+$primary-color: #000034;
+$button-color: #8D8DDA;
+$bold: 700;
+
+@mixin button {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 65px;
+  gap: 10px;
+  border-radius: 41px;
+  border: none;
+  cursor: pointer;
+}

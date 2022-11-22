@@ -1,0 +1,59 @@
+
+.hero {
+  width: 100%;
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.left {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.hero img {
+  grid-column-start: 8;
+  grid-column-end: 12;
+  max-width: clamp(100px, 525px, 525px);
+}
+
+.left h1 {
+  font-size: 6em;
+  line-height: 110%;
+}
+
+.left p {
+  font-size: 18px;
+  justify-content: left;
+  font-weight: 400;
+  width: 70%;
+}
+
+.buttons {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  gap: 20px
+}
+
+.button {
+  @include button;
+}
+
+.button:active, button a {
+  transform: scale(0.9);
+}
+
+.buy {
+ background-color: $button-color; 
+}
+
+.button a {
+  color: #fff;
+}
+
+.sell {
+  background-color: transparent;
+  border: 2px solid $button-color;
+}

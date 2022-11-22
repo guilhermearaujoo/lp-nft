@@ -1,3 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 5px;
+  font-size: 20px;
+  height: 40px;
+}
+
+.logo {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  font-weight: bold;
+  flex-shrink: 1;
+}
+
+.nav__item {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.nav__item:last-child {
+  grid-column-start: 11;
+  grid-column-end: 13;
+}
+
+.nav__item:hover {
+  font-size: 22px;
+}
+
+.hero {
+  width: 100%;
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.left {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.hero img {
+  grid-column-start: 8;
+  grid-column-end: 12;
+  max-width: 525px;
+}
+
+.left h1 {
+  font-size: 6em;
+  line-height: 110%;
+}
+
+.left p {
+  font-size: 18px;
+  justify-content: left;
+  font-weight: 400;
+  width: 70%;
+}
+
+.buttons {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 65px;
+  gap: 10px;
+  border-radius: 41px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:active, button a {
+  transform: scale(0.9);
+}
+
+.buy {
+  background-color: #8D8DDA;
+}
+
+.button a {
+  color: #fff;
+}
+
+.sell {
+  background-color: transparent;
+  border: 2px solid #8D8DDA;
+}
+
 body {
+  width: 100vw;
+  height: 100vh;
   background-color: #000034;
+  padding: 20px 10%;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #fff;
+}
+
+header {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

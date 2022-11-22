@@ -1,0 +1,29 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 5px;
+  font-size: 20px;
+  height: 40px;
+}
+
+.logo {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  font-weight: bold;
+  flex-shrink: 1;
+}
+
+.nav__item {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.nav__item:last-child {
+  grid-column-start: 11;
+  grid-column-end: 13;
+}
+
+.nav__item:hover {
+  font-size: 22px;
+}/*# sourceMappingURL=nav.css.map */

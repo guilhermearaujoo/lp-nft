@@ -1,0 +1,31 @@
+.hero {
+  width: 100%;
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.left {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.hero img {
+  grid-column-start: 8;
+  grid-column-end: 12;
+  max-width: 525px;
+}
+
+.left h1 {
+  font-size: 6em;
+  line-height: 110%;
+}
+
+.left p {
+  font-size: 18px;
+  justify-content: left;
+  font-weight: 400;
+  width: 50%;
+  background-color: red;
+}/*# sourceMappingURL=hero.css.map */
