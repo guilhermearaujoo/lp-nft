@@ -4,6 +4,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 nav {
@@ -22,14 +23,13 @@ nav {
   flex-shrink: 1;
 }
 
+.nav__item:first-of-type {
+  grid-column-start: 9;
+}
+
 .nav__item {
   color: #fff;
   transition: all 0.4s ease;
-}
-
-.nav__item:last-child {
-  grid-column-start: 11;
-  grid-column-end: 13;
 }
 
 .nav__item:hover {
@@ -39,7 +39,7 @@ nav {
 .hero {
   width: 100%;
   display: grid;
-  margin-top: 25px;
+  margin-top: 40px;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 }
@@ -51,12 +51,12 @@ nav {
 
 .hero img {
   grid-column-start: 8;
-  grid-column-end: 12;
-  max-width: 525px;
+  grid-column-end: 13;
+  max-width: 475px;
 }
 
 .left h1 {
-  font-size: 6em;
+  font-size: 5.8em;
   line-height: 110%;
 }
 
@@ -86,7 +86,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px 65px;
+  padding: 18px 58px;
   gap: 10px;
   border-radius: 41px;
   border: none;
@@ -118,6 +118,27 @@ body {
   font-family: "Outfit", sans-serif;
   font-style: normal;
   color: #fff;
+}
+
+.circle1 {
+  position: absolute;
+  width: 600px;
+  height: 964px;
+  left: calc(50% - 490px - 245.5px);
+  top: -619px;
+  background: rgba(128, 128, 215, 0.6);
+  filter: blur(312px);
+}
+
+.circle2 {
+  position: absolute;
+  width: 800px;
+  height: 964px;
+  left: calc(50% - 490px + 763.5px);
+  top: 118px;
+  background: #88D0D0;
+  opacity: 0.6;
+  filter: blur(312px);
 }
 
 header {

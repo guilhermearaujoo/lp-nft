@@ -2,7 +2,7 @@
 .hero {
   width: 100%;
   display: grid;
-  margin-top: 25px;
+  margin-top: 40px;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 }
@@ -14,12 +14,12 @@
 
 .hero img {
   grid-column-start: 8;
-  grid-column-end: 12;
-  max-width: clamp(100px, 525px, 525px);
+  grid-column-end: 13;
+  max-width: clamp(100px, 475px, 525px);
 }
 
 .left h1 {
-  font-size: 6em;
+  font-size: 5.8em;
   line-height: 110%;
 }
 

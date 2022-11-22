@@ -13,6 +13,27 @@ body {
   color: #fff;
 }
 
+.circle1 {
+  position: absolute;
+  width: 600px;
+  height: 964px;
+  left: calc(50% - 980px/2 - 245.5px);
+  top: -619px;
+  background: rgba(128, 128, 215, 0.6);
+  filter: blur(312px);
+}
+
+.circle2 {
+  position: absolute;
+  width: 800px;
+  height: 964px;
+  left: calc(50% - 980px/2 + 763.5px);
+  top: 118px;
+  background: #88D0D0;
+  opacity: 0.6;
+  filter: blur(312px);
+}
+
 header {
  width: 100%;
 }
