@@ -7,7 +7,7 @@
 
 > ⚙️ A Crypto Landing Page made to practice my skills. You can see it here [krypto]()
 
-<h3>The Project Dsign</h3>
+<h3>The Project Design</h3>
 <p>
   You can see the project design here in 
   <a href="https://www.figma.com/file/sQlifR4aSncdqeg3mE44JW/Flux---Figma-Build-Tutorial-(Starter)-(Community)?t=fX0zlyfMlZtRzVTJ-0" target="_blank">Figma</a>
